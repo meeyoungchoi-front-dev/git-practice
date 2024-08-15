@@ -39,7 +39,11 @@
 ![alt text](image-10.png)
 
 # 브랜치로 나누어 관리하기
-## 브랜치란 : 버전의 흐름, 버전의 분기이다
+## 브랜치란 : 버전의 흐름, 버전
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
 ## 브랜치의 이름: 최초의 브랜치, master 브랜치
 - 가장 기존적인 브랜치이다
 - 깃허브에서는 main 브랜치라고 부른다
@@ -57,3 +61,40 @@
 2. 체크아웃
 + 특정 브랜치에서 작업할 수 있도록 작업 환경을 바꾸는것
 + HEAD의 위치를 특정 브랜치의 최신 커밋으로 옮기는 것
+
+## 브랜치를 합친다 merge
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
+![alt text](image-20.png)
+![alt text](image-21.png)
+![alt text](image-22.png)
+
+## 브랜치 충돌 
+![alt text](image-23.png)
+![alt text](image-24.png)
+![alt text](image-25.png)
+![alt text](image-26.png)
+## 위 4번째 그림에 대한 설명
+<<<<<<< HEAD
+a-1.txt 파일의 같은 내용을 다르게 수정 <-------------------  현재 브랜치 (master) 브랜치 내용
+=======
+foo  <-------- foo 브랜치 내용
+>>>>>>> foo
+
+## master 브랜치의 내용으로 병합하여 충돌 해결
+![alt text](image-27.png)
+![alt text](image-28.png)
+
+## a-1.txt 파일을 열어보면 master 브랜치의 내용이 반영이 되어 있다
+![alt text](image-29.png)
+
+## foo branch와 master branch를 병합했을때 나오는 새로운 branch
+![alt text](image-30.png)
+
+# rebase branch
+![alt text](image-31.png)
+![alt text](image-32.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
