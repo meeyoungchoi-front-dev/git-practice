@@ -106,3 +106,20 @@ foo  <-------- foo 브랜치 내용
 ![alt text](image-36.png)
 ![alt text](image-38.png)
 ![alt text](image-39.png)
+
+# 깃허브로 협업하기
+## 원격 저장소와의 네 가지 상호작용
+### clone
++ 원격 저장소를 복제하기
++ .git 숨김폴더 도 같이 복제된다
+#### 원격 저장소 브랜치 이름
++ main 브랜치 == master 브랜치
++ origin == 원격 저장소에 붙은 일종의 별명
++ origin/HEAD == 원격 저장소 origin의 HEAD
++ origin/main == 원격 저장소 origin의 main
+### push
++ 원격 저장소에 밀어넣기
+### fetch
++ 원격 저장소를 일단 가져만 오기
+### pull
++ 원격 저장소를 가져와서 합치기
