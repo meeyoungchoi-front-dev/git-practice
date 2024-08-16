@@ -44,9 +44,7 @@
 ![alt text](image-13.png)
 ![alt text](image-14.png)
 ![alt text](image-15.png)
-## 브랜치의 이름: 최초의 브랜치, master 브랜치
-- 가장 기존적인 브랜치이다
-- 깃허브에서는 main 브랜치라고 부른다
+## 브랜치란 : 버전의 흐름, 버전브랜치란 : 버전의 흐름, 버전브랜치란 : 버전의 흐름, 버전브랜치란 : 버전의 흐름, 버전
 
 ## 브랜치 이름
 - 예) feature/menu 브랜치 (메뉴 기능 추가를 위한 브랜치)
@@ -99,3 +97,12 @@ foo  <-------- foo 브랜치 내용
 ![alt text](image-33.png)
 ![alt text](image-34.png)
 ![alt text](image-35.png)
+
+# 깃허브와 소스트리 연동하기
+## SSH
++ 깃허브와 컴퓨터가 안전하게 통신을 주고받을 수 있는 방법
++ 공개키, 개인키 암호가 필요하다
++ ssh-keygen
+![alt text](image-36.png)
+![alt text](image-38.png)
+![alt text](image-39.png)
